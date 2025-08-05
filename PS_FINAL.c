@@ -24,9 +24,6 @@ processor, including Memory, Registers, the ALU, and the PC.
 /* press shift, button_pressed=9:Ra, 0/1, imm(<4) */
 /* press loadiR, button_pressed=10: Ra, imm */
 /* press loadiM, button_pressed=11: memory address, imm */
-// 0 1 2 3 add12, nand03, loadi r3 1
-//load 12, shiftleft3 1, bnz 6, 
-
 
 
 #include "math.h"
@@ -9985,4 +9982,5 @@ void operation_display() {
 ////operation screen
 void operation_indication_display() {
   draw_string(writing_x, writing_y, operation[operation_index], 0xFA60);
+
 }
