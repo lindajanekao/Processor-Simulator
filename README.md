@@ -3,6 +3,7 @@
 Welcome! Our design provides an intuitive way to understand how an 8-bit processor operates by showing real-time instruction execution — ideal for anyone exploring computer architecture.
 
 💡Key Features:
+
 -Memory: 8-cell array (4 for instructions, 4 for data)
 
 -Registers: Four 8-bit registers (R0–R3) for storing values or memory addresses
