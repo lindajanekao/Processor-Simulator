@@ -1,3 +1,4 @@
+//Please do not copy this code without the permission from the creator
 /*
 Project Title: Processor Simulator
 Created by Jinghan Linda Gao and Michel Viyella, March 2025.
@@ -1450,4 +1451,5 @@ void operation_display() {
 ////operation screen
 void operation_indication_display() {
   draw_string(writing_x, writing_y, operation[operation_index], 0xFA60);
+
 }
